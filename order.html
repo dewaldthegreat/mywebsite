@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order | Succulents For Functions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="nav-inner">
+        <div class="logo-wrap">
+            <div class="logo-mark">🌿</div>
+            <div>
+                <div class="logo-text-main">Succulents For Functions</div>
+                <div class="logo-text-sub">Weddings • Events • Favours</div>
+            </div>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="weddings.html">Weddings</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="order.html">Order</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-inner">
+        <div>
+            <h1>Request a quote or place an order.</h1>
+            <p class="lead">
+                Use the form below to send us your details. We’ll follow up via WhatsApp or email with availability
+                and pricing.
+            </p>
+        </div>
+    </div>
+</section>
+
+<main>
+    <section class="section">
+        <h2>Order form</h2>
+        <form action="https://formsubmit.co/your-email-here" method="POST">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="text" name="phone" placeholder="WhatsApp number (e.g. +27 76 203 2483)">
+            <input type="email" name="email" placeholder="Email address" required>
+            <input type="text" name="event_date" placeholder="Event date (or approximate month)">
+
+            <select name="plant">
+                <option value="">Select succulent type (sample)</option>
+                <option>Spekboom Small</option>
+                <option>Spekboom Medium</option>
+                <option>Spekboom Large</option>
+                <option>Aloe Mix</option>
+                <option>Haworthia</option>
+                <option>Mixed Mini Succulent Favours</option>
+            </select>
+
+            <input type="number" name="quantity" placeholder="Estimated quantity">
+            <textarea name="message" rows="4" placeholder="Tell us more about your wedding / function, theme, colours and any ideas you have."></textarea>
+
+            <button type="submit">Send request</button>
+        </form>
+
+        <p class="hero-meta" style="margin-top:0.8rem;">
+            Prefer direct chat? WhatsApp us on <strong>+27 76 203 2483</strong>:
+            <a href="https://wa.me/27762032483?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20succulents">Open WhatsApp</a>
+        </p>
+    </section>
+</main>
+
+<footer>
+    <div>© 2025 <strong>Succulents For Functions</strong></div>
+</footer>
+</body>
+</html>

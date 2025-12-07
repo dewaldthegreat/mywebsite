@@ -4,193 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Succulents For Functions | Weddings & Events</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #fafafa;
-            color: #333;
-        }
-
-        header {
-            background: #2e7d32;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 32px;
-        }
-
-        .hero {
-            background: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1600&q=60') center/cover no-repeat;
-            height: 350px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-shadow: 0 3px 8px rgba(0,0,0,0.6);
-            font-size: 28px;
-            font-weight: bold;
-        }
-
-        section {
-            padding: 40px 20px;
-            max-width: 1200px;
-            margin: auto;
-        }
-
-        h2 {
-            color: #2e7d32;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-
-        .card {
-            background: white;
-            border-radius: 8px;
-            padding: 15px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-
-        .card img {
-            width: 100%;
-            border-radius: 8px;
-        }
-
-        .price {
-            font-size: 18px;
-            font-weight: bold;
-            color: #2e7d32;
-            margin-top: 8px;
-        }
-
-        .whatsapp-btn {
-            display: inline-block;
-            background: #25D366;
-            padding: 12px 20px;
-            color: white;
-            border-radius: 5px;
-            text-decoration: none;
-            font-size: 18px;
-            margin-top: 20px;
-        }
-
-        footer {
-            background: #2e7d32;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
 <header>
-    <h1>Succulents For Functions</h1>
-    <p>Beautiful succulents for weddings, events, gifts & décor</p>
+    <div class="nav-inner">
+        <div class="logo-wrap">
+            <div class="logo-mark">🌿</div>
+            <div>
+                <div class="logo-text-main">Succulents For Functions</div>
+                <div class="logo-text-sub">Weddings • Events • Favours</div>
+            </div>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="weddings.html">Weddings</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="order.html">Order</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
 </header>
 
-<div class="hero">
-    Premium Succulents for Weddings & Functions
-</div>
-
-<section id="about">
-    <h2>About Us</h2>
-    <p>
-        Succulents For Functions supplies high-quality succulents for weddings, corporate events, parties, décor, 
-        and gifting. We offer multiple sizes, bulk pricing options, and custom orders.  
-    </p>
-
-    <a class="whatsapp-btn" href="https://wa.me/27762032483?text=Hi%20I%20am%20interested%20in%20succulents">
-        WhatsApp Us: +27 776 203 2483
-    </a>
-</section>
-
-<section id="products">
-    <h2>Our Succulents</h2>
-    
-    <div class="grid">
-
-        <!-- Spekboom Small -->
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1608256246201-8990671e3d58?auto=format&fit=crop&w=600&q=60" alt="Spekboom Small">
-            <h3>Spekboom (Small)</h3>
-            <p>Perfect for table décor or party favours.</p>
-            <p class="price">From R15 each</p>
+<section class="hero">
+    <div class="hero-inner">
+        <div>
+            <div class="hero-badge">
+                <span>Now taking 2026 wedding bookings</span>
+            </div>
+            <h1>Premium succulents for weddings & special functions.</h1>
+            <p class="lead">
+                We supply beautiful, easy-care succulents like Spekboom, Aloe and Haworthia for table décor,
+                guest favours and event styling in and around South Africa.
+            </p>
+            <div class="hero-actions">
+                <a href="https://wa.me/27762032483?text=Hi%2C%20I%27m%20interested%20in%20succulents%20for%20an%20event" class="btn-primary">
+                    WhatsApp us: +27 76 203 2483
+                </a>
+                <a href="products.html" class="btn-outline">View sample plants</a>
+            </div>
+            <div class="hero-meta">
+                <strong>Bulk pricing</strong> for 20+, 50+ and 100+ plants • Perfect for weddings & functions
+            </div>
         </div>
-
-        <!-- Spekboom Medium -->
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1587573089734-09cbf8d59bd4?auto=format&fit=crop&w=600&q=60" alt="Spekboom Medium">
-            <h3>Spekboom (Medium)</h3>
-            <p>Great for weddings, gifting, or centerpieces.</p>
-            <p class="price">From R30 each</p>
+        <div class="hero-image">
+            <div class="hero-image-inner"></div>
+            <div class="hero-tag">
+                <strong>Succulents For Functions</strong><br>
+                Spekboom • Aloe • Haworthia • Mixed favours
+            </div>
         </div>
-
-        <!-- Spekboom Large -->
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1533158326337-891aef79d0f1?auto=format&fit=crop&w=600&q=60" alt="Spekboom Large">
-            <h3>Spekboom (Large)</h3>
-            <p>Statement plants for décor or special events.</p>
-            <p class="price">From R60 each</p>
-        </div>
-
-        <!-- Aloe Succulent -->
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1549756708-8ac0f1ff0a5c?auto=format&fit=crop&w=600&q=60" alt="Aloe">
-            <h3>Aloe Succulent</h3>
-            <p>Beautiful and hardy. Perfect for displays.</p>
-            <p class="price">From R25 each</p>
-        </div>
-
-        <!-- Haworthia -->
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1497030855747-1bb3a79af86f?auto=format&fit=crop&w=600&q=60" alt="Haworthia">
-            <h3>Haworthia</h3>
-            <p>Ideal for elegant guest favours.</p>
-            <p class="price">From R20 each</p>
-        </div>
-
     </div>
 </section>
 
-<section id="bulk">
-    <h2>Bulk Orders for Weddings & Events</h2>
-    <p>
-        We specialise in bulk succulent orders for:
-    </p>
-    <ul>
-        <li>Weddings (guest gifts, centrepieces)</li>
-        <li>Corporate functions</li>
-        <li>Birthday parties</li>
-        <li>Baby showers</li>
-        <li>Table decorations</li>
-    </ul>
+<main>
+    <section class="section">
+        <h2>Why succulents for your event?</h2>
+        <p>
+            Succulents are long-lasting, water-wise and beautiful. They make the perfect guest gift, centrepiece or
+            décor element, and your guests can take them home as a living memory of your day.
+        </p>
+        <div class="grid">
+            <div class="card">
+                <h3>Low maintenance</h3>
+                <p class="tagline">Easy to care for, ideal for guests and offices.</p>
+            </div>
+            <div class="card">
+                <h3>Eco-friendly choice</h3>
+                <p class="tagline">Spekboom is known as a great carbon absorber.</p>
+            </div>
+            <div class="card">
+                <h3>Customisable look</h3>
+                <p class="tagline">Choose pot styles, tags, sizes and colours.</p>
+            </div>
+        </div>
+    </section>
 
-    <p>
-        Bulk pricing available for 20+, 50+, 100+ units.
-    </p>
-
-    <a class="whatsapp-btn" href="https://wa.me/2762032483?text=Hi%20I%20want%20info%20on%20bulk%20succulent%20orders">
-        Contact for Bulk Orders
-    </a>
-</section>
+    <section class="section">
+        <h2>Popular sample options</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Spekboom Mini Favours</h3>
+                <p class="tagline">Perfect for wedding guest gifts or thank-you favours.</p>
+                <p class="price">From R15 each</p>
+            </div>
+            <div class="card">
+                <h3>Aloe Table Pots</h3>
+                <p class="tagline">Striking greens for modern table décor.</p>
+                <p class="price">From R25 each</p>
+            </div>
+            <div class="card">
+                <h3>Haworthia Collection</h3>
+                <p class="tagline">Compact, elegant succulents for any event.</p>
+                <p class="price">From R20 each</p>
+            </div>
+        </div>
+    </section>
+</main>
 
 <footer>
-    © 2025 Succulents For Functions | All Rights Reserved  
-    <br>
-    WhatsApp: +27 76 203 2483
+    <div>© 2025 <strong>Succulents For Functions</strong> · WhatsApp: +27 76 203 2483 · succulentsforfunctions.co.za</div>
 </footer>
-
 </body>
 </html>
-
